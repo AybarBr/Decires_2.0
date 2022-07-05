@@ -10,3 +10,9 @@ D:\Visual Studio Proyects\ProyectoClinica__ASP.NET\PaginaWebClinina\CapaEntidade
 D:\Visual Studio Proyects\ProyectoClinica__ASP.NET\PaginaWebClinina\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
 D:\Visual Studio Proyects\ProyectoClinica__ASP.NET\PaginaWebClinina\CapaEntidades\obj\Debug\CapaEntidades.dll
 D:\Visual Studio Proyects\ProyectoClinica__ASP.NET\PaginaWebClinina\CapaEntidades\obj\Debug\CapaEntidades.pdb
+C:\Users\br-1_\Source\Repos\Decires_2.0\PaginaWebClinina\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\br-1_\Source\Repos\Decires_2.0\PaginaWebClinina\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\br-1_\Source\Repos\Decires_2.0\PaginaWebClinina\CapaEntidades\obj\Debug\CapaEntidades.csproj.AssemblyReference.cache
+C:\Users\br-1_\Source\Repos\Decires_2.0\PaginaWebClinina\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\br-1_\Source\Repos\Decires_2.0\PaginaWebClinina\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\br-1_\Source\Repos\Decires_2.0\PaginaWebClinina\CapaEntidades\obj\Debug\CapaEntidades.pdb

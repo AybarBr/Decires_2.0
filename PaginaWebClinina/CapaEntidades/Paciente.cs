@@ -16,7 +16,7 @@ namespace CapaEntidades
         public char Sexo { get; set; }
         public String NroDocumento { get; set; }
         public String Direccion { get; set; }
-        public String Telefono { get; set; }
+        public String Correo { get; set; }
         public bool Estado { get; set; }
         public String Imagen { get; set; }
 
@@ -26,7 +26,7 @@ namespace CapaEntidades
 
 
         public Paciente(int _IdPaciente, String _Nombres, String _ApPaterno, String _ApMaterno, int _Edad, char _Sexo
-            , String _NroDocumento, String _Direccion, String _Telefono, bool _Estado, String _Imagen)
+            , String _NroDocumento, String _Direccion, String _Correo, bool _Estado, String _Imagen)
         {
 
             this.IdPaciente = _IdPaciente;
@@ -36,6 +36,7 @@ namespace CapaEntidades
             this.Edad = _Edad;
             this.Sexo = _Sexo;
             this.NroDocumento = _NroDocumento;
+            this.Correo = _Correo;
             this.Direccion = _Direccion;
             this.Imagen = _Imagen;
         }

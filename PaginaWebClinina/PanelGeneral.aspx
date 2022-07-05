@@ -3,6 +3,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <img src="img/imgpanelgeneral.jpg"/>
+    <img src="img/hero-bg.jpg"/>
 
 </asp:Content>

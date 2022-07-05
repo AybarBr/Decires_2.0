@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <section class="content-header">
-        <h1 style="text-align: center">REGISTRO DE PACIENTES</h1>
+        <h1 style="text-align: center">REGISTRO DE ESTUDIANTES</h1>
     </section>
     <section class="content">
         <div style="width: 100%" class="row">
@@ -65,11 +65,11 @@
                             <asp:RegularExpressionValidator ID="evEdad" runat="server" ErrorMessage="Ingrese una edad correcta" ControlToValidate="txtEdad" ForeColor="#FF3300" ValidationExpression="[0-9]{1,2}" ValidationGroup="DatosRequeridos"></asp:RegularExpressionValidator>
                         </div>
                         <div class="form-group">
-                            <label for="txtTelefono" class="formulario__label">TELÉFONO</label>
+                            <label for="txtCorreo" class="formulario__label">CORREO</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtTelefono" runat="server" Text="" CssClass="form-control formulario__input"></asp:TextBox>
-                            <asp:RegularExpressionValidator ID="evTelefono" runat="server" ErrorMessage="El telefono solo contiene numeros" ControlToValidate="txtTelefono" ForeColor="#FF3300" ValidationExpression="\d{9,14}$" ValidationGroup="DatosRequeridos"></asp:RegularExpressionValidator>
+                            <asp:TextBox ID="txtCorreo" runat="server" Text="" CssClass="form-control formulario__input"></asp:TextBox>
+                            <asp:RegularExpressionValidator ID="evCorreo" runat="server" ErrorMessage="Ingrese un formato email válido" ControlToValidate="txtCorreo" ForeColor="#FF3300" ValidationExpression="^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" ValidationGroup="DatosRequeridos"></asp:RegularExpressionValidator>
                         </div>
                         <div class="form-group">
                             <label for="txtDireccion" class="formulario__label">DIRECCIÓN</label>
@@ -111,7 +111,7 @@
             <div class="col-xs-12">
                 <div class="box box-primary">
                     <div class="box-header">
-                        <h3 class="box-title">Lista de Pacientes</h3>
+                        <h3 class="box-title">Lista de Estudiantes</h3>
                     </div>
                     <div class="box-body table-responsive">
                         <table id="tbl_pacientes" class="table table-bordered table-hover text-center">

@@ -7,11 +7,11 @@
     <asp:UpdatePanel ID="upPanel" runat="server">
         <ContentTemplate>
             <section class="content-header">
-                <h1 style="text-align: center">RESERVA DE CITAS</h1>
+                <h1 style="text-align: center">RESERVA DE TURNOS</h1>
             </section>
             <section class="content">
                 <div class="box-header">
-                    <h3 style="text-align: center" class="box-title">DATOS DEL PACIENTE</h3>
+                    <h3 style="text-align: center" class="box-title">DATOS DEL ESTUDIANTE</h3>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
@@ -43,8 +43,8 @@
                             <br />
                             <div class="box-body">
                                 <div class="form-group">
-                                    <label>TELÉFONO</label>
-                                    <asp:TextBox ID="txtTelefono" CssClass="form-control" runat="server" Enabled="false"></asp:TextBox>
+                                    <label>CORREO</label>
+                                    <asp:TextBox ID="txtCorreo" CssClass="form-control" runat="server" Enabled="false"></asp:TextBox>
                                 </div>
                                 <div class="form-group">
                                     <label>EDAD</label>

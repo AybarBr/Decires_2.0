@@ -38,7 +38,7 @@ function llenarDatosPaciente(obj) {
     $("#idPaciente").val(obj.IdPaciente);
     $("#txtNombres").val(obj.Nombres);
     $("#txtApellidos").val(obj.ApPaterno + " " + obj.ApMaterno);
-    $("#txtTelefono").val(obj.Telefono);
+    $("#txtCorreo").val(obj.Correo);
     $("#txtEdad").val(obj.Edad);
     $("#txtSexo").val((obj.Sexo == 'M') ? 'Masculino' : 'Femenino');
 }
@@ -74,7 +74,7 @@ function limpiarDatosPaciente() {
     $("#txtDNI").val("");
     $("#txtNombres").val("");
     $("#txtApellidos").val("");
-    $("#txtTelefono").val("");
+    $("#txtCorreo").val("");
     $("#txtEdad").val("");
     $("#txtSexo").val("");
 }

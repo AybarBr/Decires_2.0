@@ -25,7 +25,7 @@ namespace CapaAccesoDatos
         public SqlConnection ConexionBD()
         {
             SqlConnection conexion = new SqlConnection();
-            conexion.ConnectionString = "Data Source=DESKTOP-FK4VL1E; Initial Catalog=DBClinicaPrueba; Integrated security=true";
+            conexion.ConnectionString = "Data Source=DESKTOP-AMJQ25B; Initial Catalog=Clinica; Integrated security=true";
             return conexion;
         }
     }

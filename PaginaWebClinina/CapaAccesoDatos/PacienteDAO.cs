@@ -43,7 +43,7 @@ namespace CapaAccesoDatos
                 cmd.Parameters.AddWithValue("@prmSexo", objPaciente.Sexo);
                 cmd.Parameters.AddWithValue("@prmNroDoc", objPaciente.NroDocumento);
                 cmd.Parameters.AddWithValue("@prmDireccion", objPaciente.Direccion);
-                cmd.Parameters.AddWithValue("@prmTelefono", objPaciente.Telefono);
+                cmd.Parameters.AddWithValue("@prmCorreo", objPaciente.Correo);
                 cmd.Parameters.AddWithValue("@prmEstado", objPaciente.Estado);
                 con.Open();
 
@@ -194,7 +194,7 @@ namespace CapaAccesoDatos
                         Nombres = dr["Nombres"].ToString(),
                         ApPaterno = dr["ApPaterno"].ToString(),
                         ApMaterno = dr["ApMaterno"].ToString(),
-                        Telefono = dr["Telefono"].ToString(),
+                        Correo = dr["Correo"].ToString(),
                         Edad = Convert.ToInt32(dr["Edad"].ToString()),
                         Sexo = Convert.ToChar(dr["Sexo"].ToString())
                     };

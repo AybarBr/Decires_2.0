@@ -73,7 +73,7 @@ namespace PaginaWebClinina
             objPaciente.Sexo = (ddlSexo.SelectedValue == "Femenino") ? 'F' : 'M'; // Masculino , Femenino
             objPaciente.NroDocumento = txtNroDocumento.Text;
             objPaciente.Direccion = txtDireccion.Text;
-            objPaciente.Telefono = txtTelefono.Text;
+            objPaciente.Correo = txtCorreo.Text;
             objPaciente.Estado = true;
 
             return objPaciente;
@@ -108,7 +108,7 @@ namespace PaginaWebClinina
             txtEdad.Text = "";
             txtNombres.Text = "";
             txtNroDocumento.Text = "";
-            txtTelefono.Text = "";
+            txtCorreo.Text = "";
             ddlSexo.SelectedIndex = 0;
 
         }

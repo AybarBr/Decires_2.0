@@ -154,7 +154,7 @@ function Limpiar() {
     $("#txtApMaterno").val("");
     $("#ddlSexo")[0].selectedIndex = 0;
     $("#txtEdad").val("");
-    $("#txtTelefono").val("");
+    $("#txtCorreo").val("");
     $("#txtDireccion").val("");
 }
 

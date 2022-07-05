@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="PaginaWebClinina.login" %>
 <!DOCTYPE html>
-<html  style="background-image:url(/img/loginClinica.jpg)" xmlns="http://www.w3.org/1999/xhtml">
+<html  style="background-image:url(/img/log.jpg)" xmlns="https://mexico.unir.net/educacion/maestria-educacion-especial/">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Login Clinica</title>
@@ -10,12 +10,12 @@
    <link rel="icon" href="img/clinica_318-1538.jpg" />
 </head>
  
-<body style="background-image:url(/img/loginClinica.jpg)">
+<body style="background-image:url(/img/log.jpg)">
     <form id="form1" runat="server">
     <div class="form-box" id="login-box">
       <asp:Login ID="LoginUser" runat="server" EnableViewState="false" OnAuthenticate="LoginUser_Authenticate" Width="100%">
          <LayoutTemplate>
-             <div class="header bg-blue">Bienvenido</div>
+             <div class="header bg-green">Bienvenido a DECIRES</div>
                     <div class="body bg-gray">
                         <div class="form-group">
                             <asp:TextBox ID="UserName" runat="server" CssClass="form-control" placeholder="Usuario"></asp:TextBox>
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                     <div class="footer">
-                        <asp:Button ID="btnIngresar" CommandName="Login" runat="server" Text="Iniciar Sesión" CssClass="btn bg-blue btn-block" />
+                        <asp:Button ID="btnIngresar" CommandName="Login" runat="server" Text="Iniciar Sesión" CssClass="btn bg-green btn-block" />
                     </div>
               </LayoutTemplate>
        </asp:Login>

@@ -123,22 +123,22 @@ namespace PaginaWebClinina
         protected global::System.Web.UI.WebControls.RegularExpressionValidator evEdad;
 
         /// <summary>
-        /// Control txtTelefono.
+        /// Control txtCorreo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTelefono;
+        protected global::System.Web.UI.WebControls.TextBox txtCorreo;
 
         /// <summary>
-        /// Control evTelefono.
+        /// Control evCorreo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator evTelefono;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator evCorreo;
 
         /// <summary>
         /// Control txtDireccion.
