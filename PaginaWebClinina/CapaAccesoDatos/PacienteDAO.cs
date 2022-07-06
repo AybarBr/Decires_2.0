@@ -237,7 +237,6 @@ namespace CapaAccesoDatos
                         Nombres = dr["Nombres"].ToString(),
                         ApPaterno = dr["ApPaterno"].ToString(),
                         ApMaterno = dr["ApMaterno"].ToString(),
-                        Correo = dr["Correo"].ToString(),
                         Edad = Convert.ToInt32(dr["Edad"].ToString()),
                         Sexo = Convert.ToChar(dr["Sexo"].ToString())
                     };

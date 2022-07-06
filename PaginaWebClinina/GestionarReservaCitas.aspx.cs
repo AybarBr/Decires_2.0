@@ -7,6 +7,8 @@ using System.Web;
 using System.Web.Services;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Net.Mail;
+using System.Net;
 
 namespace PaginaWebClinina
 {
@@ -86,18 +88,43 @@ namespace PaginaWebClinina
                 Cita objCita = ObtenerCitaSeleccionada();
                 bool response = CitaLN.getInstance().RegistrarCita(objCita);
 
+
                 if (response)
                 {
                     ScriptManager.RegisterStartupScript(Page, Page.GetType(), "Mensaje", "<script>alert('Cita registrada correctamente.')</script>", false);
                     Response.Redirect("GestionarReservaCitas.aspx");
+                    string body =
+               "<body>" +
+                   "<h1>Bienvenido a Decires</h1>" +
+                   "<h4>Querido Alumno,</h4>" +
+                   "<span>Le deseamos éxito en esta etapa de su formación academica brindandole todo el apoyo que requiera.</span>" +
+                   "<span>Ofrecemos todo el contenido de manera digital.</span>" +
+                   "<br/><br/><span>Saludos cordiales.</span>" +
+               "</body>";
+
+                    SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
+                    smtp.Credentials = new NetworkCredential("brunoaybar29@gmail.com", "cnhgaipborydjldb");
+                    smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+                    smtp.Port = 25;
+                    smtp.EnableSsl = true;
+                    smtp.UseDefaultCredentials = false;
+
+                    MailMessage mail = new MailMessage();
+                    mail.From = new MailAddress("brunoaybar29@gmail.com", "Decires");
+                    mail.To.Add(new MailAddress("br-1_aybar@hotmail.com"));
+                    mail.Subject = "mensaje de bienvenida";
+                    mail.IsBodyHtml = true;
+                    mail.Body = body;
+
+                    smtp.Send(mail);
+
                 }
                 else
                 {
                     ScriptManager.RegisterStartupScript(Page, Page.GetType(), "Alerta", "<script>alert('Error al registrar la cita.')</script>", false);
                 }
-
             }
-           
+            
         }
 
         //Comprobar si existe un horario seleccionado

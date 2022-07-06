@@ -95,7 +95,7 @@
             <table>
                 <tr>
                     <td>
-                        <asp:Button ID="btnRegistrar" runat="server" CssClass="btn btn-primary" Width="200px" Text="Registrar" OnClick="btnRegistrar_Click" ValidationGroup="DatosRequeridos" />
+                        <asp:Button ID="btnRegistrar" runat="server" CssClass="btn btn-success" Width="200px" Text="Registrar" OnClick="btnRegistrar_Click" ValidationGroup="DatosRequeridos" />
                     </td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
                     <td>

@@ -53,7 +53,7 @@
             </div>
         </div>
         <div class="text-center">
-            <asp:Button ID="btnRegistrar" runat="server" CssClass="btn btn-primary" Text="REGISTRAR MENÚ" OnClick="btnRegistrar_Click" />
+            <asp:Button ID="btnRegistrar" runat="server" CssClass="btn btn-success" Text="REGISTRAR MENÚ" OnClick="btnRegistrar_Click" />
         </div>
         <br />
         <br />

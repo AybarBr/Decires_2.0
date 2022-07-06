@@ -6,7 +6,7 @@
 
     <section class="content-header">
         <div class="text-center">
-            <h1>GESTIONAR ATENCIÓN MÉDICA</h1>
+            <h1>GESTIÓN DE TURNOS RESERVADOS</h1>
             <asp:Label ID="lblFechaAtencion" runat="server" Font-Bold="true"></asp:Label>
         </div>
         <br />
@@ -35,7 +35,7 @@
                         </div>
                         <div class="col-md-3">
                             <div class="form-group">
-                                <asp:Button ID="btnBuscar" runat="server" Text="Buscar" class="btn btn-facebook center-block btnBuscar" OnClick="btnBuscar_Click" />
+                                <asp:Button ID="btnBuscar" runat="server" Text="Buscar" class="btn btn-info center-block btnBuscar" OnClick="btnBuscar_Click" />
                             </div>
                         </div>
                     </div>

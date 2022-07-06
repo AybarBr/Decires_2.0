@@ -5,14 +5,14 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <section class="content-header">
-        <h1 style="text-align: center">GESTION DE HORARIOS DE MÉDICOS</h1>
+        <h1 style="text-align: center">GESTION DE HORARIOS DE LOS PROFESIONALES</h1>
     </section>
     <section class="content">
         <div class="row">
             <div class="col-md-4">
                 <div class="box box-primary">
                     <div class="box-header">
-                        <h3 class="box-title">Datos del Medico</h3>
+                        <h3 class="box-title">Datos del Profesional</h3>
                     </div>
                     <div class="box-body">
                         <label>DNI</label>
@@ -62,7 +62,7 @@
                    </div>
                       <div class="box-footer" style="text-align: center">
                         <%--<asp:Button ID="btnAgregarHorario" runat="server" CssClass="btn btn-primary" Text="Agregar Horario" />--%>
-                        <asp:LinkButton ID="btnAgregarHorario" runat="server" CssClass="btn btn-primary" href="#AgregarHorario" data-toggle="modal">Agregar Horario</asp:LinkButton>
+                        <asp:LinkButton ID="btnAgregarHorario" runat="server" CssClass="btn btn-success" href="#AgregarHorario" data-toggle="modal">Agregar Horario</asp:LinkButton>
                         <%--<asp:Button ID="btnGuardarHorario" runat="server" CssClass="btn btn-success" Text="Guarda Horario" />--%>
                     </div>
                 </div>

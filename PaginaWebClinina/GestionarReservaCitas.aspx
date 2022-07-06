@@ -23,7 +23,7 @@
                                 <div class="input-group">
                                     <asp:TextBox ID="txtDNI" CssClass="form-control" runat="server" MaxLength="8"></asp:TextBox>
                                     <div class="input-group-btn">
-                                        <asp:Button ID="btnBuscar" runat="server" CssClass="btn btn-danger" Text="BUSCAR" />
+                                        <asp:Button ID="btnBuscar" runat="server" CssClass="btn btn-info" Text="BUSCAR" />
                                     </div>
                                 </div>
                                 <br />
@@ -143,7 +143,7 @@
                                 <br />
                                 <div class="row">
                                     <div class="col-md-12 text-center">
-                                        <asp:Button ID="btnReservarCita" runat="server" Text="Reservar Cita" CssClass="btn btn-primary btn-registrar" OnClick="btnReservarCita_Click" />
+                                        <asp:Button ID="btnReservarCita" runat="server" Text="Reservar Cita" CssClass="btn btn-success btn-registrar" OnClick="btnReservarCita_Click" />
                                     </div>
                                 </div>
                             </div>

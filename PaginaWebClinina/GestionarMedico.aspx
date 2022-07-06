@@ -49,14 +49,14 @@
                 <div class="box box-primary">
                     <div class="box-body">
                         <div class="form-group">
-                            <img src="img/medico-de-familia.jpg"/>
+                            <img src="img/profesional.jpg"/>
                         </div>
                        
                         <div class="form-group">
                             <label>Tipo Empleado</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtTipoEmpleado" runat="server" Text="Medico" Enabled="false" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="txtTipoEmpleado" runat="server" Text="Profesional" Enabled="false" CssClass="form-control"></asp:TextBox>
                         </div>
 
                     </div>
@@ -68,7 +68,7 @@
             <table>
                 <tr>
                     <td>
-                        <asp:Button ID="btnRegistrar" runat="server" CssClass="btn btn-primary" Width="200px" Text="Registrar" OnClick="btnRegistrar_Click" />
+                        <asp:Button ID="btnRegistrar" runat="server" CssClass="btn btn-success" Width="200px" Text="Registrar" OnClick="btnRegistrar_Click" />
                     </td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
                     <td>

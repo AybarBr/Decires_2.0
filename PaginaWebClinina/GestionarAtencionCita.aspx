@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section class="content-header">
         <div class="text-center">
-            <h3>DATOS DEL PACIENTE</h3>
+            <h3>DATOS DEL ESTUDIANTE</h3>
         </div>
     </section>
     <section class="content invoice">
@@ -29,7 +29,7 @@
             </div>
             <div class="col-sm-4 invoice-col">
                 <br />
-                <strong>Receta Medica</strong>
+                <strong>Temas/Materias tratados en el día</strong>
                 <br />
                 <asp:TextBox ID="txtObservaciones" runat="server" TextMode="MultiLine" Width="100%" Height="150px"></asp:TextBox>
             </div>
@@ -38,7 +38,7 @@
             <br />
             <div class="col-sm-12 invoice-col">
                 <br />
-                <strong>Diagnóstico y observaciones</strong>
+                <strong>Avances y observaciones</strong>
                 <br />
                 <asp:TextBox ID="txtDiagnostico" runat="server" TextMode="MultiLine" Width="100%" Height="100px"></asp:TextBox>
             </div>
